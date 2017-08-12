@@ -1,0 +1,60 @@
+h1 {
+  color: black;
+}
+
+body {
+  background: blue;
+  font-size: 25px;
+}
+
+li {
+  text-decoration: underline;
+  color: violet;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+}
+
+.small-container {
+  min-height: 50vh;
+  padding-top: 30vh;
+  text-align: center;
+  list-style-position: inside;
+}
+
+#special {
+  text-decoration: none;
+}
+
+#about p {
+  colour: pink;
+}
+
+
+#navbar {
+  position: fixed;
+  width: 90vw;
+}
+
+#navbar .nav-links {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+#navbar .nav-links:hover {
+  color: #9a7;
+}
+
+#contact input, textarea {
+  padding: 20px;
+  margin: 15px auto;
+  font-size: 18px;
+  border: none;
+}
+
+#contact input[type="submit"] {
+  background-color: #FFC169;
+}
